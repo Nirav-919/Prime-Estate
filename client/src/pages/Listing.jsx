@@ -133,7 +133,7 @@ export default function Listing() {
               </li>
               <li className='flex items-center gap-1 whitespace-nowrap '>
                 <FaChair className='text-lg' />
-                {listing.furnished ? 'Furnished' : 'Unfurnished'}
+                {listing.furnished ? 'Furnished' : 'Non furnished'}
               </li>
             </ul>
             {currentUser && listing.userRef !== currentUser._id && !contact && (
