@@ -6,6 +6,7 @@ import authRouter from './routes/auth.route.js';
 import listingRouter from './routes/listing.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
+import favicon from 'serve-favicon';
 dotenv.config();
 
 mongoose
@@ -35,6 +36,7 @@ app.use('/api/listing', listingRouter);
 
 
 app.use(express.static(path.join(__dirname, '/client/dist')));
+app.use(favicon(path.join(__dirname, 'client', 'favicon.ico')));
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
