@@ -1,13 +1,13 @@
 # Prime Estate
 
-This project is a Real Estate application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It also used Tailwind CSS for styling, Vite for build tooling, and React Redux for state management. 
+This project is a Real Estate application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It also uses Tailwind CSS for styling, Vite for build tooling, and React Redux for state management. 
 
 The application allows users to browse through listings, filter properties based on various criteria, view property details, and contact agents for further inquiries.
 
 ## Features
 
-1. **User Authentication:** Users can sign up and log in securely to access personalized features.
-2. **Property Listings:** Display a list of available properties fetched from the backend.Users can view property details, including images, description, price and amenities.
+1. **User Authentication:** Users can sign up and log in securely to access personalized features.The users can also sign in through their google account.
+2. **Property Listings:** Display a list of available properties fetched from the backend.Users can view property details, including images,location, description, price and amenities.
 3. **Filtering and Sorting:** Implemented filtering options to allow users to refine property listings based on amenities, offers and property type. Sorting options enable users to arrange listings by price and time.
 4. **Search Functionality:** Users can search for properties using keywords or specific criteria.
 5. **Agent Contact:** Users can contact agents for inquiries or property viewings. Integration with email for communication.
@@ -23,6 +23,8 @@ The application allows users to browse through listings, filter properties based
 - **Tailwind CSS:** Utility-first CSS framework for styling the UI components.
 - **Vite:** Fast, opinionated web dev build tool that serves your code via native ES Module imports during development.
 - **React Redux:** State management library for managing application state and data flow within React components.
+- **JWT (JSON Web Tokens):** Securely authenticate users and manage sessions.
+- **Firebase:** Cloud-based services for authentication, storage, and additional functionalities like real-time database updates and analytics.
 
 ## Installation and Setup
 
