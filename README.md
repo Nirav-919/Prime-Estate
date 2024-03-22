@@ -1,6 +1,6 @@
 # Prime Estate
 
-This project is a Real Estate application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It also uses Tailwind CSS for styling, Vite for build tooling, and React Redux for state management. 
+This project is a Real Estate application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It also uses Tailwind CSS for styling, Vite for build tooling, React Redux for state management, JWT (JSON Web Tokens) for authentication and Firebase for additional services.
 
 The application allows users to browse through listings, filter properties based on various criteria, view property details, and contact agents for further inquiries.
 
