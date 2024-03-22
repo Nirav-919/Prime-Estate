@@ -61,13 +61,13 @@ JWT_SECRET =
 VITE_FIREBASE_API_KEY = 
 ```
 
-5. Start the backend server:
+5. Open a terminal and start the backend server:
 
 ```bash
 npm run dev
 ```
 
-6. Start the frontend development server:
+6. Open another terminal and start the frontend development server:
 
 ```bash
 cd client && npm run dev
